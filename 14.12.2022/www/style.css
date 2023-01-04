@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(to right, rgb(131, 120, 234), rgb(65, 80, 220));
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+#login-top {
+    background-color: rgb(101, 68, 155);
+    height:70px;
+    width:400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:150px;
+    box-shadow: 0px 0px 30px rgb(101, 68, 155);
+    
+}
+
+#login-bottom {
+    background-color: rgb(255, 255, 255);
+    height:350px;
+    width:400px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 30px rgb(101, 68, 155);
+    
+}
+
+#login-top p {  
+    color:white;
+    text-align: center;
+    font-size:30px;
+    font-weight:800;
+    padding: 15px;
+    margin:0;
+    
+}
+
+label{
+    color: rgb(101, 68, 155);
+    font-weight:800;
+    font-size: 10px;
+    padding-left: 45px;
+    
+}
+
+#login-bottom input:focus{
+    outline:none;
+    
+}
+#login-bottom input{
+    border:0px;
+    border-bottom: 1px solid rgb(101, 68, 155);
+    width:300px;
+    padding: 10px;
+    padding-left:0px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom: 15px;
+}
+
+input{
+    margin-left: 45px;
+}
+
+form{
+    padding-top: 20px;
+}
+
+input[type="submit"]
+{
+    border:none !important;
+    width:150px !important;
+    height:40px !important;
+    margin-left: 205px;
+    font-weight:800;
+    padding-left: 10px !important;
+    border-radius: 5px;
+    margin-top: 5px !important;
+    background-color: rgb(101, 68, 155);
+    color:white;
+}
